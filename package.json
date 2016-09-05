@@ -1,0 +1,32 @@
+{
+  "name": "wallet",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify components/app.js -t reactify -o public/js/build.js && clear && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasThebaud/wallet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasThebaud/wallet/issues"
+  },
+  "homepage": "https://github.com/NicolasThebaud/wallet#readme",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "materialize-css": "^0.97.7",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0"
+  }
+}
